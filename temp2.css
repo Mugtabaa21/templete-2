@@ -1,0 +1,915 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+div.up a button {
+    color: white;
+    background-color: #5DA7DB;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10%;
+    font-size: 25px;
+    text-align: center;
+    cursor: grab;
+}
+div.up {
+    background-color: #4f93c4;
+    width: 50px;
+    height: 50px;
+    position: sticky;
+    left: 95%;
+    bottom: 30px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+
+div.up:hover {
+    opacity: 85%;
+}
+
+/*header*/
+section.page-1 {
+    width: 100%;
+    height: 649px;
+    background-image: url(/hi/background/background1.jpeg);
+    position: relative;
+}
+
+section.page-1 div.page-1-over {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb( 0 0 0 /60%);
+}
+
+ div.header {
+  display: flex;
+  padding-left: 10%; 
+  background-color: white;
+  position: sticky;  
+  top: 0;
+  height: 60px;
+  z-index: 3;
+  border-bottom: 2px solid #EEEEEE;
+  box-shadow: 5px 0px 3px #EEEEEE;
+}
+
+
+ div.header div.logo {
+    width: 40%;
+    height: 60px;
+    margin-top: 7px;
+}
+
+ div.header  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    align-items: center;
+    width: 60%;
+}
+
+ div.header  ul li a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+
+ div.header  ul li a::after {
+    content: '';
+    width: 0;
+    transition: .3s;  
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    border-bottom: 2px solid #5DA7DB;
+} 
+
+div.header  ul li a:hover::after {
+    width: 100%;
+    color: #5DA7DB;  
+}
+
+ div.header  ul li a:hover {
+    color: #5DA7DB;
+    opacity: 70%;
+}
+
+section.page-1 div.content h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+    padding-bottom: 20px;
+    
+}
+
+section.page-1 div.content p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+section.page-1 div.content button.get {
+    position: absolute;
+    left: 520px;
+    width: 160px;
+    color: black;
+    font-size: 18px;
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+section.page-1 div.content button.more {
+    position: absolute;
+    left: 700px;
+    width: 160px;
+    color: white;
+    font-size: 18px;
+    height: 55px;
+    background-color: #5DA7DB;
+    border-radius: 5px;
+    border: none;
+}
+
+section.page-1 div.content button:hover {
+    cursor: grab;
+    opacity: 90%;
+}
+
+section.page-2 {
+    width: 100%;
+    height: 650px;
+}
+
+section.page-2 h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+section.page-2 hr {
+    width: 50px;
+    background: #4f93c4;
+    height: 5px;
+    margin: auto;
+}
+
+section.page-2 div.container {
+    display: flex;
+    width: 93%;
+    justify-content: space-around;
+}
+
+
+section.page-2 div.container div {
+    border: 1px solid rgb(223, 217, 217);
+    width: 310px;
+    height: 300px;
+    text-align: center;
+}
+
+section.page-2 div.container img.one {
+    position: absolute;
+    left: 200px;
+    margin-top: 40px;
+}
+
+section.page-2 div.container img.two {
+    position: absolute;
+    margin-top: 40px;
+}
+
+section.page-2 div.container img.three {
+    position: absolute;
+    left: 1035px;
+    margin-top: 40px;
+}
+
+section.page-2 div.container div h1 {
+    padding-bottom: 13px;
+}
+
+section.page-2 div.container div p {
+    color: gray;
+    font-size: medium;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+section.page-2 div.container div button {
+    background-color: white;
+    border: none;
+    color: #4f93c4;
+    font-size: 19px;
+}
+
+section.page-2 div.container div button:hover {
+    cursor: grab;
+}
+
+section.page-2 div.container div.one {
+    position: relative;
+}
+
+section.page-2 div.container div.one div.hov {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: -150%;
+}
+
+section.page-2 div.container div.one div.hov:hover {
+    
+    left: 150%;
+}
+
+
+div.fw h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+div.fw hr {
+    width: 50px;
+    background: #4f93c4;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+div.h {   
+width: 100%;
+flex-wrap: wrap;
+display: flex;
+justify-content: space-evenly;
+}
+
+div.h div.container- {
+position: relative;
+width: 350px;
+height: 300px;
+margin-bottom: 50px;
+}
+
+div.h div.container- div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4 ease-in-out;
+    background: #000;
+    cursor: grab;
+}
+
+div.h div.container- div.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+div.h div.container-:hover div.overlay {
+    opacity: 0.8;
+    transition: .4s;
+    
+}
+
+div.h div.container- div.content h1 {
+    color: #5DA7DB;
+    padding-bottom: 15px;
+}
+
+div.h div.container- div.content p {
+    font-size: 20px;
+    color: white;
+}
+
+
+div.h div.container-2 {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+
+div.h div.container-2 div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4 ease-in-out;
+    background: #000;
+    cursor: grab;
+}
+
+div.h div.container-2 div.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+div.h div.container-2:hover div.overlay {
+    opacity: 0.8;
+    transition: .4s;
+}
+
+div.h div.container-2 div.content h1 {
+    color: #5DA7DB;
+    padding-bottom: 15px;
+}
+
+div.h div.container-2 div.content p {
+    font-size: 20px;
+    color: white;
+}
+
+div.h div.container-3 {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+
+
+div.h div.container-3 div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4 ease-in-out;
+    background: #000;
+    cursor: grab;
+}
+
+div.h div.container-3 div.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+div.h div.container-3:hover div.overlay {
+    opacity: 0.8;
+    transition: .4s;
+}
+
+div.h div.container-3 div.content h1 {
+    color: #5DA7DB;
+    padding-bottom: 15px;
+}
+
+div.h div.container-3 div.content p {
+    font-size: 20px;
+    color: white;
+}
+
+div.h div.container-4 {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+
+
+div.h div.container-4 div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4 ease-in-out;
+    background: #000;
+    cursor: grab;
+}
+
+div.h div.container-4 div.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+div.h div.container-4:hover div.overlay {
+    opacity: 0.8;
+    transition: .4s;
+}
+
+div.h div.container-4 div.content h1 {
+    color: #5DA7DB;
+    padding-bottom: 15px;
+}
+
+div.h div.container-4 div.content p {
+    font-size: 20px;
+    color: white;
+}
+
+div.h div.container-5 {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+
+
+div.h div.container-5 div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4 ease-in-out;
+    background: #000;
+    cursor: grab;
+}
+
+div.h div.container-5 div.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+div.h div.container-5:hover div.overlay {
+    opacity: 0.8;
+    transition: .4s;
+}
+
+div.h div.container-5 div.content h1 {
+    color: #5DA7DB;
+    padding-bottom: 15px;
+}
+
+div.h div.container-5 div.content p {
+    font-size: 20px;
+    color: white;
+}
+
+div.h div.container-6 {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    margin-bottom:150px;
+}
+
+
+div.h div.container-6 div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4 ease-in-out;
+    background: #000;
+    cursor: grab;
+}
+
+div.h div.container-6 div.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+div.h div.container-6:hover div.overlay {
+    opacity: 0.8;
+    transition: .4s;
+}
+
+div.h div.container-6 div.content h1 {
+    color: #5DA7DB;
+    padding-bottom: 15px;
+}
+
+div.h div.container-6 div.content p {
+    font-size: 20px;
+    color: white;
+}
+
+
+div.co {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+div.co h1 {
+   margin-bottom: 13px;
+   margin-top: 15px;
+   
+}
+
+div.co p {
+    color: gray;
+    padding-left: 10%;
+}
+
+div.co div {
+    width: 350px;
+    height: 200px;
+    border:  1px solid rgb(223, 217, 217) ;
+    margin-bottom: 80px;
+    text-align: center;
+    
+}
+
+div.us {
+    margin-top: 70px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+div.us div.left {
+    flex: 1.5;
+    font-size:large;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+div.us div.left h1 {
+    margin-bottom: 15px;
+}
+
+div.us div.left p {
+    color: gray;
+    justify-items: center;
+}
+
+div.us div.left p.main {
+    margin-bottom: 30px;
+}
+
+div.us div.left hr{
+width: 50px;
+background: #4f93c4;
+height: 5px;
+margin-bottom: 50px;
+}
+
+div.us div.right {
+    margin-right: 50px;
+}
+
+div.award {
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url(/hi/background/background2.jpeg);
+}
+
+div.award div.ud {
+    margin-top: 80px;
+    margin-bottom: 13px;
+    display: flex;
+    flex: 1;
+    margin-left: 150px;
+    gap: 300px;
+}
+
+div.award div.ud h1 {
+    display: flex;
+}
+
+div.award div.middle {
+    display: flex;
+    margin-bottom: 13px;
+    flex: 1;
+    gap: 270px;
+    margin-left: 150px;
+}
+
+div.award div.down {
+    display: flex;
+    padding-bottom: 80px;
+    flex: 1;
+    padding-left: 40px;
+    justify-content: space-around;
+
+}
+
+div.price {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+div.price div {
+    width: 320px;
+    height: 500px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+div.price div p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+div.price div h1 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #5DA7DB;
+    margin-left: 85px;
+    border-radius: 50%;
+    padding-top: 38px;
+}
+
+div.price div h1 span {
+    font-size: 50px;
+}
+
+div.price div p.p {
+    line-height: 30px;
+}
+
+div.price div a {
+    width: 200px;
+    height: 60px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    color: #5DA7DB;
+    background-color: #fff;
+    border: 2px solid #5DA7DB;
+    cursor: grab;
+    padding-top: 17px;
+    text-decoration: none;
+}
+
+div.comment {
+    background-image: url(/hi/background/background3.webp);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+div.comment div.uper {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 30px;
+    width: 100%;
+}
+
+div.comment div.uper p {
+    color: #5DA7DB;
+} 
+
+div.comment div.uper h1 img {
+    border-radius: 50%;
+}
+
+div.comment div.down {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    
+}
+
+div.comment div.down p {
+    width: 300px;
+}
+
+section.container {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+section.container div {
+    width: 300px;
+    height: 390px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+section.container div img {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+section.container div h1 {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+section.container div p {
+    position: absolute;
+    top: 90%;
+    left: 32%;
+    color: gray;
+    font-weight: bold;
+}
+
+section.recent {
+    width: 100%;
+    height: 900px;
+    background-color: whitesmoke;
+    border: 2px solid #EEEEEE;
+    box-shadow: 5px 0px 3px #EEEEEE;
+    margin-bottom: 100px;
+}
+
+section.recent div.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.recent div.container div.q {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
+
+section.recent div.container div.q p {
+    gap: 10px;
+}
+
+section.recent div.container div.q img.o {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+section.recent div.container div.q p {
+     letter-spacing: 1px;
+     margin-left: 15px;   
+     margin-bottom: 20px;
+}
+
+
+section.recent div.container div.q p.p2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.recent div.container div.q p.z {
+    color: gray;
+}
+
+section.recent div.container div.q button {
+    border: none;
+    color: #5DA7DB;
+    background-color: none;
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: grab;
+}
+
+div.get_in {
+    width: 100%;
+    height: 500px;
+}
+
+div.get_in div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+div.get_in div h1 {
+    margin-left: 18px;
+}
+
+div.get_in div p {
+    color: gray;
+    flex: 1;
+}
+
+div.get_in div p.f {
+    margin-left: 255px;
+}
+
+div.get_in div.info {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+div.get_in div.info div.f {
+    justify-content: center;
+    gap: 20px;
+}
+
+div.get_in div.info div.f input {
+    width: 320px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+    box-shadow: 5px 0px 3px #EEEEEE;   
+}
+
+div.get_in div.info div.s input {
+    width: 660px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+    box-shadow: 5px 0px 3px #EEEEEE;
+}
+
+div.get_in div.info div.l input {
+    width: 660px;
+    height: 120px;
+    padding-bottom: 65px;
+    font-size: 20px;
+    background-color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+    box-shadow: 5px 0px 3px #EEEEEE;
+} 
+
+button.send {
+    margin-left: 45%;
+    color: white;
+    background-color: #5DA7DB;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: grab;
+    margin-bottom: 100px;
+}
+
+button.send:hover {
+    opacity: 70%;
+}
+
+footer {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    gap: 30px;
+}
+
+footer img {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+footer img:hover {
+    opacity: 70%;
+    cursor: grab;
+}
+
+div.copyright {
+    text-align: center;
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
+
+div.copyright a {
+    text-decoration: none;
+    cursor: grab;
+    color: #000;
+    font-size: 20px;
+}
